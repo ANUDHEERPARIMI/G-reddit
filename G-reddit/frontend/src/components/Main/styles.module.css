@@ -1,0 +1,140 @@
+.navbar {
+	width: auto;
+	max-height: 60px;
+	background-color: #393a3b;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    padding-right: 200px;
+}
+
+.navbar h1 {
+	color: white;
+	font-size: 25px;
+}
+
+.white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+img {
+	float: left;
+	margin-right: 20px;
+  }
+
+.main_container{
+	display: inline-block;
+}
+/* YourFormStyles.module.css */
+
+/* YourFormStyles.module.css */
+
+.form_container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Increased margin-bottom for better separation between inputs */
+.input:last-child {
+    margin-bottom: 20px;
+}
+
+/* Added specific styling for the Banned Keywords input */
+.banned_keywords_input {
+    margin-bottom: 20px;
+}
+
+.green_btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Added hover effect for the button */
+.green_btn:hover {
+    background-color: #45a049;
+}
+/* YourButtonStyles.module.css */
+
+/* Common styling for buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Primary button style */
+.primary_button {
+    background-color: #4caf50;
+    color: #fff;
+	
+}
+
+/* Hover effect for primary button */
+.primary_button:hover {
+    background-color: #45a049;
+}
+
+/* Secondary button style */
+.secondary_button {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Hover effect for secondary button */
+.secondary_button:hover {
+    background-color: #2980b9;
+}
+
+/* Outline button style */
+.outline_button {
+    background-color: transparent;
+    color: #333;
+    border: 2px solid #333;
+}
+
+/* Hover effect for outline button */
+.outline_button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
